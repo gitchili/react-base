@@ -1,8 +1,7 @@
-import React, { Component } from "react";
-import Title from "./Components/Title";
-import "./App.css";
+import React, { Component } from 'react';
+import "../App.css";
 
-class App extends Component {
+class SandBox extends Component {
   /*************************************************************************
    * component lifecycle 
    *************************************************************************/
@@ -18,11 +17,11 @@ class App extends Component {
    *************************************************************************/
   render() {
     return (
-      <div className="App">
-       <Title />
+      <div className="Work-Area">
+       <h3>test</h3>
       </div>
     );
   }
 }
 
-export default App; //root component gets rendered inside index.js
+export default SandBox;
