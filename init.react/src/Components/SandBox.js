@@ -18,10 +18,11 @@ class SandBox extends Component {
   render() {
     return (
       <div className="Work-Area">
-       <h3>test</h3>
+       <h3>Base-App</h3>
+       <p>this is some random text</p>
       </div>
     );
   }
 }
 
-export default SandBox;
+export default SandBox; //syntax playground component

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import Title from "./Components/Title";
+import Title from "./Components/Head/Title";
 import "./App.css";
+import SandBox from "./Components/SandBox";
 
 class App extends Component {
   /*************************************************************************
@@ -20,6 +21,7 @@ class App extends Component {
     return (
       <div className="App">
        <Title />
+       <SandBox />
       </div>
     );
   }
